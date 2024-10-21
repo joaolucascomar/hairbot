@@ -19,7 +19,7 @@ footer {
 
 .quad{
     background-color: #FE85CD;
-    height: 250px;
+    height: auto;
     width: auto;
     color: black;
 }

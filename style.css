@@ -13,13 +13,6 @@ body {
     min-height: 100vh;
 }
 
-footer {
-    margin-top: auto;
-}
-
-.quad{
-    background-color: #FE85CD;
-    height: auto;
-    width: auto;
-    color: black;
+.underline-pink {
+    text-decoration: underline #FE85CD;
 }

@@ -42,7 +42,9 @@
       </div>
   </nav>
   <main>
-    
+    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+      Cadastre-se
+    </button>
   </main>
   <footer class="footer mt-5 py-3 bg-dark text-light">
     <div class="container">
@@ -54,6 +56,38 @@
     </div>
   </footer>
   <div id="modal-container"></div>
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Cadastre-se</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          aaaaaa
+          <form action="https://formspree.io/f/xdkokdzg" method="POST">
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" name="nome">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="password" name="password">
+            </div>
+            <!-- Adicione mais campos conforme necessário -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>  
 </body>
 <script>
   fetch('_cadastro.html')

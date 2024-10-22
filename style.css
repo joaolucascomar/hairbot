@@ -27,3 +27,8 @@ body {
     background-color: #ff1493 !important;
     border-color: #ff1493 !important;
 }
+
+.titulo {
+    font-weight: bold;
+    color: #FE85CD;
+}

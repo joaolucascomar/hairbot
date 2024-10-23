@@ -83,13 +83,15 @@ body {
     color: black; /* Texto preto */
     font-size: 1.5rem; /* Aumentar a fonte */
     position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%;
     text-align: center; /* Centraliza o texto */
 }
 
 .title {
     font-size: 2rem; /* Tamanho do título maior */
     font-weight: bold; /* Negrito */
-    color: #ff69b4;
+    color: #ff1493;
 }
 
 .description {

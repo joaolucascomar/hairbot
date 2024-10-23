@@ -84,6 +84,7 @@ body {
     .carousel-item img {
         height: 60vh; /* Ajusta a altura da imagem para caber melhor na tela */
         object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
+        object-position: left; /* Mantém o foco na parte esquerda */
     }
 }
 

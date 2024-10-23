@@ -64,6 +64,12 @@ body {
     backface-visibility: hidden; /* Adicione esta linha */
 }
 
+@media (max-width: 768px) {
+    .flashcard-content {
+        font-size: 15px;
+    }
+}
+
 .flashcard:hover img {
     transform: rotateY(180deg);
 }

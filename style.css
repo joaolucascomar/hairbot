@@ -32,3 +32,43 @@ body {
     font-weight: bold;
     color: #FE85CD;
 }
+
+.flashcard {
+    position: relative;
+    height: auto;
+    perspective: 1000px;
+}
+
+.flashcard img {
+    transition: transform 0.6s;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.flashcard-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FE85CD;
+    border-radius: 100%;
+    transform: rotateY(180deg);
+    opacity: 0;
+    transition: opacity 0.6s, transform 0.6s;
+    padding: 20px;
+    text-align: center;
+    backface-visibility: hidden; /* Adicione esta linha */
+}
+
+.flashcard:hover img {
+    transform: rotateY(180deg);
+}
+
+.flashcard:hover .flashcard-content {
+    opacity: 1;
+    transform: rotateY(0deg); /* Adicione esta linha */
+}

@@ -78,3 +78,24 @@ body {
     opacity: 1;
     transform: rotateY(0deg); /* Adicione esta linha */
 }
+
+.carousel-caption {
+    color: black; /* Texto preto */
+    font-size: 1.5rem; /* Aumentar a fonte */
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ajusta a posição para centralização */
+    text-align: center; /* Centraliza o texto */
+}
+
+.title {
+    font-size: 2rem; /* Tamanho do título maior */
+    font-weight: bold; /* Negrito */
+}
+
+.description {
+    font-size: 1.25rem; /* Tamanho do texto do parágrafo */
+}
+
+  

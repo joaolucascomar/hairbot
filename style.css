@@ -68,6 +68,23 @@ body {
     .flashcard-content h5 {
         font-size: 14px; /* Defina o tamanho da fonte menor para mobile */
     }
+
+    .carousel-caption {
+        font-size: 1.2rem; /* Diminui o tamanho da fonte */
+    }
+
+    .carousel-caption .titulo {
+        font-size: 1.5rem; /* Ajusta o tamanho do título */
+    }
+
+    .carousel-caption .description {
+        font-size: 1rem; /* Ajusta o tamanho da descrição */
+    }
+
+    .carousel-item img {
+        height: 60vh; /* Ajusta a altura da imagem para caber melhor na tela */
+        object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
+    }
 }
 
 .flashcard:hover img {

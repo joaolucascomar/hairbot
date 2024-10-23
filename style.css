@@ -92,10 +92,12 @@ body {
 .title {
     font-size: 2rem; /* Tamanho do título maior */
     font-weight: bold; /* Negrito */
+    color: #ff69b4;
 }
 
 .description {
     font-size: 1.25rem; /* Tamanho do texto do parágrafo */
+    color: black;
 }
 
   

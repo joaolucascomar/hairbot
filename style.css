@@ -83,9 +83,6 @@ body {
     color: black; /* Texto preto */
     font-size: 1.5rem; /* Aumentar a fonte */
     position: absolute;
-    top: 50%; /* Centraliza verticalmente */
-    left: 50%;
-    transform: translate(-50%, -50%); /* Ajusta a posição para centralização */
     text-align: center; /* Centraliza o texto */
 }
 

@@ -65,8 +65,8 @@ body {
 }
 
 @media (max-width: 768px) {
-    .flashcard-content {
-        font-size: 15px;
+    .flashcard-content h5 {
+        font-size: 14px; /* Defina o tamanho da fonte menor para mobile */
     }
 }
 

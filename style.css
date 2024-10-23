@@ -80,12 +80,14 @@ body {
 }
 
 .carousel-caption {
-    color: black; /* Texto preto */
-    font-size: 1.5rem; /* Aumentar a fonte */
-    position: absolute;
-    top: 50%; /* Centraliza verticalmente */
-    left: 50%;
-    text-align: center; /* Centraliza o texto */
+    color: black;
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50% !important; 
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
 .title {
